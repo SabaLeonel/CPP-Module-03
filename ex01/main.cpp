@@ -9,6 +9,5 @@ int main (void)
     scavTrap.beRepaired(10);
     scavTrap.guardGate();
 
-
     return (0);
 }

@@ -2,9 +2,9 @@
 
 int main (void)
 {
-    ClapTrap clapTrap("Luffy");
-    FragTrap fragTrap("Zoro");
-    ScavTrap scavTrap("Sanji");
+    ClapTrap clapTrap("1");
+    FragTrap fragTrap("2");
+    ScavTrap scavTrap("3");
 
     clapTrap.attack("Tortoro");
     clapTrap.takeDamage(5);

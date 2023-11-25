@@ -2,7 +2,7 @@
 
 ClapTrap::ClapTrap()
 {
-    std::cout << "ClapTrap " << this->_name << " constructor called" << std::endl;
+    std::cout << "ClapTrap " << this->_name << " constructor called (Claptrap)" << std::endl;
 }
 
 ClapTrap::~ClapTrap()
@@ -10,13 +10,13 @@ ClapTrap::~ClapTrap()
     std::cout << "ClapTrap " << this->_name << " destructor called" << std::endl;
 }
 
-ClapTrap::ClapTrap(std::string name)
+ClapTrap::ClapTrap(std::string name) 
 {
-    std::cout << "ClapTrap " << this->_name << " constructor called" << std::endl;
     this->_name = name;
     this->_hitPoints = 10;
     this->_energyPoints = 10;
     this->_attackDamage = 2;
+    std::cout << "ClapTrap " << this->_name << " constructor called (Claptrap)" << std::endl;
 }
 
 ClapTrap::ClapTrap(const ClapTrap &copy)
